@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cssFile/easyHard.css">
+    <title>Player VS PC</title>
+</head>
+<body>
+
+<header class="head">
+    <h1>Choose a game level</h1>
+</header>
+
+<form action="POST">
+    <div class="choice">
+        <input type="radio" value="Easy" id="Easy" class="choose" name="option">
+        <label for="Easy" class="lab">Easy</label>
+        <input type="radio" value="Normal" id="Normal" checked="checked" class="choose" name="option">
+        <label for="Normal" class="lab">Normal</label>
+        <input type="radio" value="Hard" id="Hard" class="choose" name="option">
+        <label for="Hard" class="lab">Hard</label>
+    </div>
+
+    <div class="continue">
+        <button onclick="back_game()" type="button" class="button">Back</button>
+        <button onclick="go_to_game()" type="button" class="button">Continue</button>
+    </div>
+</form>
+
+<script src="JavaScriptFile/Player_vs_cpu.js"></script>
+</body>
+</html>

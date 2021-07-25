@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player VS Player</title>
+    <link rel="stylesheet" href="cssFile/cs.css" />
+  </head>
+  <body>
+    <table class="game">
+      <tr>
+        <td class="td1">
+
+          <button onclick="back_to_game()" class="reset">
+            <img src="ImagesFile/back.png" />
+          </button>
+
+          <div class="player">
+            <span id="player_number">Player 1</span>
+            <div id="div10" class="player-color"></div>
+          </div>
+
+          <button onclick="reset()" class="reset"><img src="ImagesFile/undo.png" /></button>
+
+        </td>
+        <td class="td2">
+          <div class="connect">
+            <hr />
+            <table id="table">
+              <tr>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+              </tr>
+              <tr>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+              </tr>
+              <tr>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+              </tr>
+              <tr>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+              </tr>
+              <tr>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+              </tr>
+              <tr>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+                <td value="0" col="a" class="slot"></td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h2 id="div-win1"></h2>
+    <h2 id="div-win"></h2>
+      
+    <script src="JavaScriptFile/j.js"></script>
+  </body>
+</html>

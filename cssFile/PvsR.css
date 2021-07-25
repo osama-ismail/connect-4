@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccdcff;
+}
+.game {
+    width: 100%;
+}
+.td1 {
+    width: 30%;
+}
+.td2 {
+    width: 70%;
+}
+.player {
+    padding-top: 20px;
+    width: 200px;
+    height: 180px;
+    background-color: #6666ff;
+    margin: 50px auto 20px;
+    border-radius: 20px;
+    border: 8px solid #3333ff;
+    text-align: center;
+}
+.player span {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.player div {
+    background-color: white;
+    width: 90px;
+    height: 84px;
+    border-radius: 50%;
+    margin: 30px auto 0;
+}
+.connect{
+    padding: 5px 10px 5px;
+    width: 700px;
+    height: 650px;
+    background-color: #6666ff;
+    margin: 50px 0 20px;
+    border-radius: 20px;
+    border: 8px solid #3333ff;
+}
+.connect hr {
+    height: 10px;
+    border-radius: 25px;
+    background-color: #0000cc;
+}
+.slot{
+    background-color: white;
+    width: 90px;
+    height: 84px;
+    border-radius: 50%;
+    border-top: 7px solid #6666ff;
+    border-bottom: 7px solid #6666ff;
+    border-right: 5px solid #6666ff;
+    border-left: 5px solid #6666ff;
+}
+.reset{
+    padding: 20px;
+    background-color: #6666ff;
+    border: 3px solid #3333ff;
+    border-radius: 30px;
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.reset:hover {
+    background-color: #3333ff;
+}
+h2 {
+    text-align: center;
+    color: blue;
+    font-size: xxx-large;
+    font-family: fantasy;
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ourFont';
+    src: url("../FontFile/ourFont.ttf");
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccdcff;
+}
+.head {
+    text-align: center;
+    width: 100%;
+}
+.head h1 {
+    color: #4d85ff;
+    font-family: ourFont;
+    font-size: 50px;
+}
+.choice {
+    width: 600px;
+    height: 150px;
+    margin: 160px auto 0;
+    border-radius: 15px;
+    border: 3px solid #4d85ff;
+    background-color: #99b9ff;
+    /*box-shadow: 0 0 30px #4d85ff;*/
+    text-align: center;
+}
+.choose {
+    display: none;
+}
+.lab {
+    font-size: 30px;
+    color: #0000cc;
+    font-family: ourFont;
+    display: inline-block;
+    cursor: pointer;
+    padding: 55px 65px;
+    border-radius: 15px;
+}
+input[type = "radio"]:checked + .lab {
+    background-color: #4d94ff;
+    color: white;
+}
+.continue {
+    width: 600px;
+    margin: 100px 530px 130px;
+}
+.button {
+    width: 220px;
+    background-color: #99b9ff;
+    color: #0000cc;
+    font-family: ourFont;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    border: 3px solid #4d85ff;
+    /*box-shadow: 0 0 30px #4d85ff;*/
+    cursor: pointer;
+    margin-right: 30px;
+}
+.button:hover {
+    background-color: #4d94ff;
+    color: white;
+    border-color: white;
+}

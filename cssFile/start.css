@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'ourFont';
+    src: url("../FontFile/ourFont.ttf");
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccdcff;
+}
+header {
+    text-align: center;
+    width: 100%;
+}
+header h1 {
+    color: #4d85ff;
+    font-family: 'ourFont';
+    font-size: 50px;
+}
+table {
+    width: 70%;
+    margin: 150px auto;
+}
+table td {
+    width: 50%;
+}
+div {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #99b9ff;
+    border: 3px solid #4d85ff;
+    margin: auto;
+    cursor: pointer;
+}
+div img {
+    width: 300px;
+    height: 250px;
+}
+div:hover {
+    border-color: white;
+    background-color: #4d94ff;
+}
